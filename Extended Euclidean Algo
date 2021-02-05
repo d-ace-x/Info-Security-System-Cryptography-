@@ -18,10 +18,10 @@ int main()
 {
    int a = 888, b = 54, x, y, gcd;
 
-   if(a < b) std::swap(a, b);
+   if(a < b) swap(a, b);
 
    gcd = xGCD(a, b, x, y);
-   cout << "GCD: " << gcd << ", x = " << x << ", y = " << y << std::endl;
+   cout << "GCD: " << gcd << ", x = " << x << ", y = " << y << endl;
 
    return 0;
 }
